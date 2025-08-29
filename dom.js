@@ -34,7 +34,7 @@ copyButtons1.addEventListener("click", function (e) {
   let copy = parseInt(copyNumberStr);
   copy++;
   copyNumber.innerText = copy;
-  alert("National Emergency Number: 9999");
+  alert("National Emergency Number: 999");
 });
 
 const copyButtons2 = document.getElementById("copy-Button2");
@@ -45,7 +45,7 @@ copyButtons2.addEventListener("click", function (e) {
   let copy = parseInt(copyNumberStr);
   copy++;
   copyNumber.innerText = copy;
-  alert("Police Helpline Number: 9999");
+  alert("Police Helpline Number: 999");
 });
 const copyButtons3 = document.getElementById("copy-Button3");
 copyButtons3.addEventListener("click", function (e) {
@@ -75,7 +75,7 @@ copyButtons5.addEventListener("click", function (e) {
   let copy = parseInt(copyNumberStr);
   copy++;
   copyNumber.innerText = copy;
-  alert("Women & Child Helpline:190");
+  alert("Women & Child Helpline:109");
 });
 const copyButtons6 = document.getElementById("copy-Button6");
 copyButtons6.addEventListener("click", function (e) {
@@ -85,7 +85,7 @@ copyButtons6.addEventListener("click", function (e) {
   let copy = parseInt(copyNumberStr);
   copy++;
   copyNumber.innerText = copy;
-  alert("Anti-Corruption Helpline: 160");
+  alert("Anti-Corruption Helpline: 106");
 });
 const copyButtons7 = document.getElementById("copy-Button7");
 copyButtons7.addEventListener("click", function (e) {
