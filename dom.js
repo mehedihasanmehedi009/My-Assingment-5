@@ -187,6 +187,7 @@ values.push(data3);
 console.log(values);
 document.getElementById("call-btn3").addEventListener("click", function () {
   const detlescontainer = document.getElementById("detles-container");
+
   const div = document.createElement("div");
   div.innerHTML = `
     <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
@@ -200,6 +201,7 @@ document.getElementById("call-btn3").addEventListener("click", function () {
        </div>
       `;
   detlescontainer.appendChild(div);
+
   alert(" 📞calling Fire Service  999...");
 });
 
