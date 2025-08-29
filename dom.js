@@ -204,6 +204,172 @@ document.getElementById("call-btn3").addEventListener("click", function () {
 
   alert(" 📞calling Fire Service  999...");
 });
+const data4 = {
+  name: "Ambulance Service",
+  number: 1994 - 999999,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data4);
+console.log(values);
+document.getElementById("call-btn4").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data4.name}</h1>
+              <p>${data4.number}</p>
+             </div>
+           </div>
+           <div>${data4.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling Ambulance    1994 - 999999...");
+});
+const data5 = {
+  name: "Women & Child Helpline",
+  number: 109,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data5);
+console.log(values);
+document.getElementById("call-btn5").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data5.name}</h1>
+              <p>${data5.number}</p>
+             </div>
+           </div>
+           <div>${data5.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling Women & Child Helpline   109...");
+});
+
+const data6 = {
+  name: " Anti-Corruption Helpline",
+  number: 106,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data6);
+console.log(values);
+document.getElementById("call-btn6").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data6.name}</h1>
+              <p>${data6.number}</p>
+             </div>
+           </div>
+           <div>${data6.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling  Anti-Corruption   106...");
+});
+
+const data7 = {
+  name: "Electricity Helpline",
+  number: 16216,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data7);
+console.log(values);
+document.getElementById("call-btn7").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data7.name}</h1>
+              <p>${data7.number}</p>
+             </div>
+           </div>
+           <div>${data6.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling  Electricity Outage  16216...");
+});
+
+const data8 = {
+  name: " Brac Helpline",
+  number: 16445,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data8);
+console.log(values);
+document.getElementById("call-btn8").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data8.name}</h1>
+              <p>${data8.number}</p>
+             </div>
+           </div>
+           <div>${data8.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling  Brac  16445 ...");
+});
+
+const data9 = {
+  name: " Bangladesh Railway Helpline ",
+  number: 163,
+  date: new Date().toLocaleTimeString(),
+};
+
+values.push(data9);
+console.log(values);
+document.getElementById("call-btn9").addEventListener("click", function () {
+  const detlescontainer = document.getElementById("detles-container");
+
+  const div = document.createElement("div");
+  div.innerHTML = `
+    <div class=" mt-5 bg-slate-300 rounded-lg p-3 m-6 flex justify-between items-center">
+            <div class="flex items-center">
+             <div>
+                 <h1  class="text-[16px]  font-bold" >${data9.name}</h1>
+              <p>${data9.number}</p>
+             </div>
+           </div>
+           <div>${data9.date}</div>
+       </div>
+      `;
+  detlescontainer.appendChild(div);
+
+  alert(" 📞calling Bangladesh Railway    163...");
+});
 
 document.getElementById("Clear-btn").addEventListener("click", function () {
   const detlescontainer = document.getElementById("detles-container");
